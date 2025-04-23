@@ -5,7 +5,7 @@ To create a system report see: https://youtu.be/51RxkL8KzVk?si=1xQhGYHRctngj3eo&
 
 Please note the current release only works with system reports that are outputted in English text.
 
-## SteamVR Error Code Definitions and Solutions: ##
+## SteamVR Error Code Definitions and Solutions: 
 
 • HMD Error Code Dictionaries: https://github.com/ValveSoftware/openvr/wiki/HmdError
 
@@ -59,7 +59,7 @@ Please note the current release only works with system reports that are outputte
 
 •	Refreshing audio devices: Often this error popping up a lot means HMD connection issues, i.e: 'headset starts to disconnect a bit', see cable connections.
 
-## General PC/VR Solutions: ##
+## General PC/VR Solutions: 
 
 •	If none of the above specific solutions are working, general troubleshooting would be: check for windows updates, steamvr updates, cpu chipset updates, bios updates and gpu driver updates. (Note for GPU driver updates, I recommend to check the Nvidia or AMD subreddits to see if the latest drivers have any issues, newest GPU drivers are not always the best.) 
 
