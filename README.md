@@ -25,7 +25,7 @@ Please note the current release only works with system reports that are outputte
 
 •	Steam Error 200 (Driver Failed): https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes 
 
-•	Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space.
+•	Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space. Finding reflections is often hard but here is a nice video on how to find major ones (using your phone flashlight can work fine as well): https://www.youtube.com/watch?v=UGJFACuQVG8 
 
 •	Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings problem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled. Also sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller 
 
