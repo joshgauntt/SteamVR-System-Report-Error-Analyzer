@@ -63,7 +63,7 @@ error_words = ['Malformed', 'NVAPI', 'back-facing', 'Error', '(208)', '(113)', '
                '(1112)', '(110)', '(-204)', '(200)', 'Samples didn\'t yield successful bootstrap pose', 'Calibration failed', 'Rotors on basestation out of 180-degree phase lock', 'Base may have been bumped or power cycled', 'HMD detected over USB, but Monitor not found',
                'faults', 'IMU misalignment unreasonably large', 'Received advertisement report', '(103)', 'HmdError_Init_FileNotFound', 'HmdError_Init_InstallationNotFound', 'HmdError_Init_InstallationCorrupt', 'HmdError_Init_VRClientDLLNotFound', 'HmdError_Init_FactoryNotFound',
                'HmdError_Init_InterfaceNotFound', 'HmdError_Init_UserConfigDirectoryInvalid', 'HmdError_Init_PathRegistryNotFound', 'HmdError_Init_NoConfigPath', 'HmdError_Init_NoLogPath', 'HmdError_Init_PathRegistryNotWritable', 'HmdError_IPC_ConnectFailed', 'HmdError_IPC_SharedStateInitFailed',
-               'HmdError_IPC_CompositorInitFailed', 'HmdError_IPC_MutexInitFailed', 'HmdError_VendorSpecific_UnableToConnectToOculusRuntime', '(475)']
+               'HmdError_IPC_CompositorInitFailed', 'HmdError_IPC_MutexInitFailed', 'HmdError_VendorSpecific_UnableToConnectToOculusRuntime', '(475)', 'Refreshing audio devices']
 
 with open(f'{downloads_path}/SteamVR Log Results - {Today}.txt', 'w', encoding='utf-8') as f:
     for line in error_list:
@@ -91,8 +91,8 @@ with open(f"{downloads_path}/SteamVR Log Results - {Today}.txt", encoding='utf-8
     lines[10] = "Steam Error 301 (Connect Failed): https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes | As well try SteamVR Beta Branch | https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71 \n" 
     lines[11] = "Steam Error -203/-204: Try turning OFF GPU Scheduling (HAGS) via windows settings, Windows settings (Settings -> System -> Display -> Graphics -> Change default graphics settings -> Disable Hardware-accelerated GPU scheduling) \n"
     lines[12] = "Steam Error 200 (Driver Failed): https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes \n"
-    lines[13] = "Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space, see:  \n"
-    lines[14] = "Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings prolblem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled. As well sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller \n"
+    lines[13] = "Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space. Finding reflections is often hard but here is a nice video on how to find major ones (using your phone flashlight can work fine as well): https://www.youtube.com/watch?v=UGJFACuQVG8 \n"
+    lines[14] = "Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings problem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled. As well sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller \n"
     lines[15] = "No optical samples: These errors are can be called 'flash-bang reflections', see:  \n"
     lines[16] = "Samples didn't yield successful bootstrap pose/Not enough contiguous samples for a bootstrap pose: These errors are steamVR trying to initialize tracking and is struggling, see:  \n"
     lines[17] = "Calibration failed: These errors are where tracking is completely lost and steam thinks the object is somewhere it is not, see:  \n"
@@ -106,8 +106,8 @@ with open(f"{downloads_path}/SteamVR Log Results - {Today}.txt", encoding='utf-8
     lines[25] = "Received advertisement report: this line shows any other bluetooth devices broadcasting signals\n"
     lines[26] = "Steam Error 475: Usually related to virtual desktop error, try to either uninstall steamvr and reinstall, if this does not work, run steamvr as system admin."
     lines[27] = "Steam Error 436: Often this error is simple as unplugging and replugging your HMD cable, as well sometimes if your HMD cable is USB-C, flip the cable 180 and replug. \n"
-    lines[28] = "However this error can also be related to DSC for high resolution HMDs that use DSC, in which if you have a DSC monitor, for exanpple a 1440p 360hz monitor, that needs to be turned off before running steamvr, then it will work, this is a DSC bandwidth limitation. To see if your monitor uses DSC, use: https://trychen.com/feature/video-bandwidth and if the 1.4 icon is an yellow !, that monitor needs to be powered off. \n"
-    lines[29] = "\n"
+    lines[28] = "However, this error can also be related to DSC for high resolution HMDs that use DSC, in which if you have a DSC monitor, for example a 1440p 360hz monitor, that needs to be turned off before running steamvr, then it will work, this is a DSC bandwidth limitation. To see if your monitor uses DSC, use: https://trychen.com/feature/video-bandwidth and if the 1.4 icon is a yellow !, that monitor needs to be powered off.\n"
+    lines[29] = "Refreshing audio devices: Often this error popping up a lot means HMD connection issues, i.e: 'headset starts to disconnect a bit', see cable connections."
     lines[30] = "\n"
     lines[31] = "\n"
     lines[32] = "General PC/VR Solutions: \n"
