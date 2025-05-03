@@ -25,7 +25,9 @@ Please note the current release only works with system reports that are outputte
 
 •	Steam Error 200 (Driver Failed): https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes 
 
-•	Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space. Finding reflections is often hard but here is a nice video on how to find major ones (using your phone flashlight can work fine as well): https://www.youtube.com/watch?v=UGJFACuQVG8 
+•	Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space. Finding reflections is often hard but here is a nice video on how to find major ones (using your phone flashlight can work fine as well): https://www.youtube.com/watch?v=UGJFACuQVG8 (Alternatives to a strobe light would be a narrow flashlight or even your phones flashlight. One note, this method may not show all reflective surfaces since base stations do emit IR lasers however this method can at least help find major sources)
+![image](https://github.com/user-attachments/assets/45488021-341a-4949-afc6-32477e5bf37c)
+
 
 •	Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings problem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled, see photo. Also sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller  As well can turn off "Pause VR when headset is idle" (Steamvr settings -> Video Settings) and disable Power Management, found in steamvr developer settings. 
 ![image](https://github.com/user-attachments/assets/d2bc91a8-83de-4bc9-9cca-79839dff8e20) 
