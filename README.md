@@ -27,10 +27,8 @@ Please note the current release only works with system reports that are outputte
 
 •	Back-facing hits/non-clustered hits: These errors causes are more than likely reflections in your play space. Finding reflections is often hard but here is a nice video on how to find major ones (using your phone flashlight can work fine as well): https://www.youtube.com/watch?v=UGJFACuQVG8 
 
-•	Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings problem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled, see photo. Also sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller  As well can turn off "Pause VR when headset is idle" and disable Power Management, found in steamvr settings. 
+•	Assertion failed/Unexpected centroid ordering error: These errors can often be reflection related and/or USB power settings problem. In windows power management plan advanced settings, it is recommended to have USB selective suspend setting disabled, see photo. Also sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller  As well can turn off "Pause VR when headset is idle" (Steamvr settings -> Video Settings) and disable Power Management, found in steamvr developer settings. 
 ![image](https://github.com/user-attachments/assets/d2bc91a8-83de-4bc9-9cca-79839dff8e20) 
-https://cdn.discordapp.com/attachments/1192620624942743703/1220787802393018508/image.webp?ex=6817a53d&is=681653bd&hm=b98e5ce594c3385b74c827accc8ab1af13a5faab12369fcdb2b0e1c4cdf1ae6f& 
-https://cdn.discordapp.com/attachments/1192620624942743703/1220787802719912037/image.webp?ex=6817a53d&is=681653bd&hm=f169e8eb0a3e6f4e31813d5a55d2814099dac85d3b6b4c592ff74ae42855e891&
 
 •	No optical samples: These errors are can be called 'flash-bang reflections'.
 
@@ -71,4 +69,8 @@ https://cdn.discordapp.com/attachments/1192620624942743703/1220787802719912037/i
 •	Program to see where your basestations are seeing (useful to make sure they are pointing in the center of your playspace): https://nono-00.itch.io/base-station-fov-viewer
 
 •	Great guide on dongle placement and dongle replacements (akro dongles being very good as individual dongle replacements): https://www.notion.so/yeove/SteamVR-Hardware-troubleshooting-Megathread-Setup-Guide-16fc956d336a8037b738d1b0b1ded2f0?pvs=4 
+
+•	Another great guide that focuses on more steamvr and windows settings changes for VR in general and VRChat: https://docs.google.com/document/u/0/d/1BdyWxQhFoRkJVfsLvcPNHgvL-esUEE76WbDfguOVbMg/mobilebasic
+
+
 
