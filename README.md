@@ -80,5 +80,7 @@ Please note the current release only works with system reports that are outputte
 
 •	Another great guide that focuses on more steamvr and windows settings changes for VR in general and VRChat: https://docs.google.com/document/u/0/d/1BdyWxQhFoRkJVfsLvcPNHgvL-esUEE76WbDfguOVbMg/mobilebasic
 
+• EMI Fixing Guide: https://luisblando.medium.com/how-i-solved-the-emi-problem-in-my-simrig-3ea6c0907609
+
 
 
