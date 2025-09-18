@@ -5,6 +5,11 @@ To create a system report see: https://youtu.be/51RxkL8KzVk?si=1xQhGYHRctngj3eo&
 
 Please note the current release only works with system reports that are outputted in English text.
 
+1. Create a SteamVR system report after you experience any VR issues in your sessions.
+2. Run the SteamVR System Report Error Analyzer program and select the downloaded system report.
+3. Select "Close Window", after selecting your file.
+4. Go to your download folders to see the outputted text analyzer file.
+
 ## SteamVR Error Code Definitions and Solutions: 
 
 • HMD Error Code Dictionaries: https://github.com/ValveSoftware/openvr/wiki/HmdError
