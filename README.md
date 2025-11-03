@@ -68,7 +68,8 @@ Please note the current release only works with system reports that are outputte
 •	**Steam Error 475:** Usually related to virtual desktop error, try to either uninstall steamvr and reinstall, if this does not work, run steamvr as system admin.
 
 •	**Steam Error 436:** Often this error is simple as unplugging and replugging your HMD cable, as well sometimes if your HMD cable is USB-C, flip the cable 180 and replug. 
-  •	However, this error can also be related to DSC for high resolution HMDs that use DSC, in which if you have a DSC monitor, for example a 1440p 360hz monitor, that needs to be turned off before running steamvr, then it will work, this is a DSC bandwidth limitation. To see if your monitor uses DSC, use: https://trychen.com/feature/video-bandwidth and if the 1.4 icon is a yellow !, that monitor needs to be powered off. 
+
+•	However, this error can also be related to DSC for high resolution HMDs that use DSC, in which if you have a DSC monitor, for example a 1440p 360hz monitor, that needs to be turned off before running steamvr, then it will work, this is a DSC bandwidth limitation. To see if your monitor uses DSC, use: https://trychen.com/feature/video-bandwidth and if the 1.4 icon is a yellow !, that monitor needs to be powered off. 
 
 •	**Refreshing audio devices:** Often this error popping up a lot means HMD connection issues, i.e: 'headset starts to disconnect a bit', see cable connections.
 
