@@ -1,5 +1,6 @@
 # SteamVR System Report Error Analyzer
-A simple python program to analyze steamvr system reports easier to output only error codes and remove the rest. 
+A simple python program to analyze steamvr system reports easier to output only error codes and remove the rest, to help identify key errors faster. 
+Ideally this program helps to fix possible tracking issues related to the headset and/or full-body (FBT) trackers, additionally fix other non-tracking related steamvr error codes.
 
 To create a system report see: https://youtu.be/51RxkL8KzVk?si=1xQhGYHRctngj3eo&t=69 
 
@@ -40,7 +41,7 @@ Please note the current release only works with system reports that are outputte
 
 •	Also sometimes using other USB ports may work but if needed, getting a separate PCIE usb controller would yield better results. Get any FL1100EX cards from this list: https://developer.valvesoftware.com/wiki/Valve_Index/USB_3.0_Controller  
 
-•	As well can turn off "Pause VR when headset is idle" (Steamvr settings -> Video Settings) and disable Power Management, found in steamvr developer settings. 
+•	As well can turn off "Pause VR when headset is idle" (Steamvr settings -> Video Settings) and disable Power Management, found in steamvr developer settings, make sure after doing this to unplug/replug all USB VR devices (dongles). 
 ![image](https://github.com/user-attachments/assets/d2bc91a8-83de-4bc9-9cca-79839dff8e20) 
 
 •	**No optical samples:** These errors are can be called 'flash-bang reflections'.
