@@ -1,6 +1,6 @@
 # SteamVR System Report Error Analyzer
-A simple python program to analyze steamvr system reports easier to output only error codes and remove the rest, to help identify key errors faster. 
-Ideally this program helps to fix possible tracking issues related to the headset and/or full-body (FBT) trackers, additionally fix other non-tracking related steamvr error codes.
+A simple python program to analyze steamvr system reports easier to output only error codes, and remove the rest of the logs that are not necessary. 
+Ideally this program helps to identify possible tracking issues related to the headset and/or full-body (FBT) trackers, additionally identify other non-tracking related steamvr error codes.
 
 To create a system report see: https://youtu.be/51RxkL8KzVk?si=1xQhGYHRctngj3eo&t=69 
 
